@@ -1,0 +1,159 @@
+body{
+	background-image: url("../images/background_3.png");
+}
+section{
+	background-color: white;
+	margin: 40px 0px 0px 0px;
+	padding: 0px 30px 40px 30px;
+	border: 1px solid #dddddd;
+}
+aside{
+	background-color: white;
+	margin: 40px 0px 0px 0px;
+	border: 1px solid #dddddd;
+}
+footer{
+	border-top: 10px solid #4aaaa5;
+	background-color: #666666;
+	height: 100px;
+}
+h3{
+	font-family:"Georgia";
+	font-size: 18px;
+	font-weight: bold;
+}
+.panel-footer{
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+}
+.container{
+	
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#mynav{
+	background-color: white;
+}
+#subnav{
+	background-color: white;
+	display: none;
+}
+
+#brand {
+	background-color: #4aaaa5;
+	/*height: 85px;*/
+	width: 240px;
+	font-family:"Georgia";
+	color: white;
+	font-size: 26px;
+	text-align: center;
+	/*line-height: 55px;*/
+	font-weight: bold;
+}
+
+.links{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.connect{
+	color: #4aaaa5;
+	text-align: center; 
+    /*margin: 30px 0px 30px 0px;*/
+    padding: 20px 0px 20px 20px;
+    border-bottom: 2px solid #E8E8E8;
+}
+.connecturl{
+	padding: 20px 0px 20px 0px;
+}
+.nodec{
+	text-decoration: none;
+}
+.maintitle{
+	font-family:"Georgia";
+	color: #4aaaa5;
+	font-size: 26px;
+	padding: 30px 0px 20px 0px;
+	font-weight: bold;
+}
+.maintitlebox{
+	border-bottom: 2px solid #cccccc;
+}
+.copyright{
+	font-family:"Georgia";
+	text-align: center;
+	line-height: 100px;
+	color: #BEBEBE; 
+}
+.content{
+	margin: 20px 20px 20px 0px;
+	font-family:"Georgia";
+	color: grey; 
+	/*float: left;*/
+}
+#bio{
+	line-height: 2.0em;
+	margin-bottom: 20px;
+}
+.portimg:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#imgcontainer{
+	padding-right: 0px;
+}
+
+.textbox{
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 600px;
+}
+#messagebox{
+	height: 200px;
+}
+.btnSubmit{
+	background-color: #4aaaa5;
+	font-family:"Georgia";
+	color: white;
+	border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/*medium*/
+@media screen and (max-width: 1198px){
+/*	.icon{
+		padding: 5px;
+		margin: 0px;
+	}*/
+}
+
+/*small*/
+@media screen and (max-width: 991px){
+	.connect{
+		text-align: left;
+	}
+	.connecturl{
+		padding: 20px 0px 20px 0px;
+	}
+}
+
+/*extra small*/
+@media screen and (max-width: 767px){
+
+	#brand{
+		width: 100%;
+	}
+
+	#subnav{
+		display: block;
+	}
+
+	.connect{
+		text-align: left;
+	}
+}
